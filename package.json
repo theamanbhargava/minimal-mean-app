@@ -1,0 +1,23 @@
+{
+  "name": "MEAN_Test",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node start.js"
+  },
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-cssmin": "^2.2.0",
+    "grunt-contrib-jshint": "^1.1.0",
+    "grunt-contrib-uglify": "^3.0.1"
+  },
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "http": "0.0.0",
+    "mongoose": "^4.10.0",
+    "mongoose-timestamp": "^0.6.0",
+    "path": "^0.12.7"
+  }
+}

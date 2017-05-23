@@ -1,0 +1,42 @@
+body {
+    color: black;
+    text-align: center;
+}
+
+@media (min-width: 768px) {
+  body > div.row {
+    margin: 0 40px;
+  }
+}
+
+@media (max-width: 767px) {
+
+  button.btn {
+    margin-top: 15px;
+  }
+}
+
+.header {
+    height: 60px;
+    border: solid 1px #00F;
+    margin-bottom: 10px;
+    padding: 20px;
+}
+
+.content {
+    height: 600px;
+    border: solid 1px #0F0;
+    margin-bottom: 10px;
+    padding: 20px;
+}
+
+.footer {
+    height: 60px;
+    border: solid 1px #f00;
+    margin-bottom: 10px;
+    padding: 20px;
+}
+
+.crud, .results {
+  margin-top: 20px;
+}

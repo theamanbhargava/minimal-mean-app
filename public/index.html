@@ -1,0 +1,25 @@
+<!DOCTYPE HTML>
+<html ng-app="testApp">
+
+<head>
+    <base href="/" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="title" content="Test">
+    <meta name="description" content="Test">
+    <title>Test</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <link rel="stylesheet" type="text/css" href="/build/app.min.css">
+</head>
+
+<body id="testApp" ng-controller="BaseController">
+    <div class="row">
+        <div ui-view="header" class="col-sm-12"></div>
+        <div ui-view="content" class="col-sm-12"></div>
+        <div ui-view="footer"class="col-sm-12"></div>
+    </div>
+    <script src="build/lib.min.js"></script>
+    <script src="app.js"></script>
+    <script src="build/app.min.js"></script>
+
+</html>
