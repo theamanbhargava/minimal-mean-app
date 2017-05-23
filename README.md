@@ -6,6 +6,7 @@ The simplest MEAN application possible, that works end to end.
 ### Prerequisites
 
 Install Node JS from https://nodejs.org/
+
 Install Mongo DB. If you are using a Mac you can use instructions at https://treehouse.github.io/installation-guides/mac/mongo-mac.html (I recommend using homebrew) 
 
 ### Installing
